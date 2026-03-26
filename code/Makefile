@@ -19,4 +19,5 @@ data:
 	python Test.py
 
 extract:
+	mkdir -p Experiments Experiments_Industrial Experiments_Industrial_paperWithoutSA Experiments_Industrial_Test
 	7z x -y data.zip.001
