@@ -1,26 +1,32 @@
-###
-Create and run the docker file:
+## Reproduction package for [It’s Quick to be Square: Fast Quadratisation for Quantum Toolchains](https://doi.org/10.1145/3800943)
+
+### Create and run the docker file:
 ```
 docker build --no-cache -t ext .
 
 docker run -it ext
 ```
-Run the experiments:
+
+### Extract experiment data:
+```
+make extract
+```
+
+### Run the experiments:
 
 ```
 source activate quark_install
 
-cd reduc/
-
-python Test.py
+make data
 ```
 
-Create Plots:
+
+### Create Plots:
 ```
-Rscript plots.r
+make plots
 ```
 
-Export Plots:
+### Export Plots:
 ```
 docker cp <container_name>:/repro/ <host_file_system>
 ```

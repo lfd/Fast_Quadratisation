@@ -1,4 +1,4 @@
-# Copyright 2024 OTH - Laboratory for Digitalisation (LfD)
+# Copyright 2025 OTH - Laboratory for Digitalisation (LfD)
 # Written by Lukas Schmidbauer
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
